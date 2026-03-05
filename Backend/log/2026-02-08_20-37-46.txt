@@ -1,0 +1,62 @@
+2026/02/08 20:37:46 MySQL connected successfully!
+2026/02/08 20:37:50 GetUser(+)
+2026/02/08 20:37:50 GetUser(-)
+2026/02/08 20:38:08 GetMedicines (+) - Fetching Stock
+2026/02/08 20:38:08 Fetched 0 medicines
+2026/02/08 20:38:08 GetMedicines (-)
+2026/02/08 20:38:09 GetStockReport (+) - Request Received
+2026/02/08 20:38:09 Fetching sales from 2026-01-31 to 2026-02-08
+2026/02/08 20:38:09 Returning report with 0 items
+2026/02/08 20:38:09 GetStockReport (-)
+2026/02/08 20:38:10 GetUser(+)
+2026/02/08 20:38:10 GetUser(-)
+2026/02/08 20:38:31 UpdateUserStatus(+)
+2026/02/08 20:38:31 UpdateUserStatus(-)
+2026/02/08 20:38:31 UpdateUserStatus(+)
+2026/02/08 20:38:31 UpdateUserStatus(-)
+2026/02/08 20:38:37 UpdateUserStatus(+)
+2026/02/08 20:38:37 UpdateUserStatus(-)
+2026/02/08 20:38:37 UpdateUserStatus(+)
+2026/02/08 20:38:37 UpdateUserStatus(-)
+2026/02/08 20:38:43 UpdateUserStatus(+)
+2026/02/08 20:38:43 UpdateUserStatus(-)
+2026/02/08 20:38:43 UpdateUserStatus(+)
+2026/02/08 20:38:43 UpdateUserStatus(-)
+2026/02/08 20:39:00 Login(+)
+2026/02/08 20:39:00 Login(-)
+2026/02/08 20:39:00 Login(+)
+2026/02/08 20:39:00 query 
+		SELECT password_hash, account_status, user_role
+		FROM login_deatils 
+		WHERE user_id='tst1'
+	
+2026/02/08 20:39:00 Login(-)
+2026/02/08 20:39:09 UpdateUserStatus(+)
+2026/02/08 20:39:09 UpdateUserStatus(-)
+2026/02/08 20:39:09 UpdateUserStatus(+)
+2026/02/08 20:39:09 UpdateUserStatus(-)
+2026/02/08 20:39:21 GetStockReport (+) - Request Received
+2026/02/08 20:39:21 Fetching sales from 2026-01-31 to 2026-02-08
+2026/02/08 20:39:21 Returning report with 0 items
+2026/02/08 20:39:21 GetStockReport (-)
+2026/02/08 20:39:23 GetMedicines (+) - Fetching Stock
+2026/02/08 20:39:23 Fetched 0 medicines
+2026/02/08 20:39:23 GetMedicines (-)
+2026/02/08 20:39:24 GetBills (+) - Fetching History Summary
+2026/02/08 20:39:24 Executing Query: 
+		SELECT bill_number, created_at, party_name, grand_total 
+		FROM bills 
+		ORDER BY created_at DESC
+	
+2026/02/08 20:39:24 DB Error executing GetBills query: Error 1054 (42S22): Unknown column 'party_name' in 'SELECT'
+2026/02/08 20:39:24 GetBills (-)
+2026/02/08 20:39:26 GetBills (+) - Fetching History Summary
+2026/02/08 20:39:26 Executing Query: 
+		SELECT bill_number, created_at, party_name, grand_total 
+		FROM bills 
+		ORDER BY created_at DESC
+	
+2026/02/08 20:39:26 DB Error executing GetBills query: Error 1054 (42S22): Unknown column 'party_name' in 'SELECT'
+2026/02/08 20:39:26 GetBills (-)
+2026/02/08 20:39:35 GetUser(+)
+2026/02/08 20:39:35 GetUser(-)

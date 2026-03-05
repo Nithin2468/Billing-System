@@ -1,0 +1,8 @@
+2026/02/08 18:13:40 MySQL connected successfully!
+2026/02/08 18:13:49 Login(+)
+2026/02/08 18:13:49 Login(-)
+2026/02/08 18:13:49 Login(+)
+2026/02/08 18:13:49 user_id nrj
+2026/02/08 18:13:49 User Detais not found: sql: no rows in result set
+2026/02/08 18:13:49 Error while fetching Data  sql: no rows in result set
+2026/02/08 18:13:49 Login(-)

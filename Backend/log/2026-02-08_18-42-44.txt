@@ -1,0 +1,46 @@
+2026/02/08 18:42:44 MySQL connected successfully!
+2026/02/08 18:43:07 Login(+)
+2026/02/08 18:43:07 Login(-)
+2026/02/08 18:43:07 Login(+)
+2026/02/08 18:43:07 query 
+		SELECT password_hash, account_status, user_role
+		FROM login_deatils 
+		WHERE user_id='tst1'
+	
+2026/02/08 18:43:07 user_id tst1
+2026/02/08 18:43:07 Login(-)
+2026/02/08 18:45:41 Login(+)
+2026/02/08 18:45:41 Login(-)
+2026/02/08 18:45:41 Login(+)
+2026/02/08 18:45:41 query 
+		SELECT password_hash, account_status, user_role
+		FROM login_deatils 
+		WHERE user_id='tst1'
+	
+2026/02/08 18:45:41 user_id tst1
+2026/02/08 18:45:41 Login(-)
+2026/02/08 18:45:42 GetMedicines (+) - Fetching Stock
+2026/02/08 18:45:42 Fetched 0 medicines
+2026/02/08 18:45:42 GetMedicines (-)
+2026/02/08 19:22:25 Login(+)
+2026/02/08 19:22:25 Login(-)
+2026/02/08 19:22:25 Login(+)
+2026/02/08 19:22:25 query 
+		SELECT password_hash, account_status, user_role
+		FROM login_deatils 
+		WHERE user_id='tst1'
+	
+2026/02/08 19:22:25 user_id tst1
+2026/02/08 19:22:25 Login(-)
+2026/02/08 19:22:28 GetStockReport (+) - Request Received
+2026/02/08 19:22:28 Fetching sales from 2026-01-31 to 2026-02-08
+2026/02/08 19:22:28 Returning report with 0 items
+2026/02/08 19:22:28 GetStockReport (-)
+2026/02/08 19:23:45 CreateUserApi(+) - Request Received
+2026/02/08 19:23:45 CreateUserApi(-)
+2026/02/08 19:23:45 CreateUserApi(+) - Request Received
+2026/02/08 19:23:45 req body  {"user_id":"luffy","password":"123","user_name":"Monkey D Luffy","user_role":"manager","user_email":"luffy@g.c","user_phone":"1234123412","created_by":"Admin"}
+2026/02/08 19:23:45 Creating User: luffy (Role: manager)
+2026/02/08 19:23:45 DB Error inserting user details: Error 1054 (42S22): Unknown column 'user_mobile' in 'INSERT INTO'
+2026/02/08 19:23:45 DB Error inserting user details: Error 1054 (42S22): Unknown column 'user_mobile' in 'INSERT INTO'
+2026/02/08 19:23:45 CreateUserApi(-)
