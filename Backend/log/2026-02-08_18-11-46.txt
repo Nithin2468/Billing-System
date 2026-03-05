@@ -1,3 +1,0 @@
-2026/02/08 18:11:46 MySQL connected successfully!
-2026/02/08 18:11:54 Login(+)
-2026/02/08 18:12:02 Login(+)
